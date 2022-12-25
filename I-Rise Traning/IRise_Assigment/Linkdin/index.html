@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+     
+        #BlockCenter{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            padding: 15px;
+          
+            /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+            /* border: 1px solid rgb(194, 214, 214); */
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            width: 20%;
+            height: 100%;
+            margin-left: 520px;
+            border-radius: 8px;
+           
+        }
+        .para{
+            color: rgb(0 0 0 / 66%);
+            margin-top: -17px;
+        }
+        .formSign>h1{
+          
+            margin-top: 10px;
+           font-weight: 500;
+
+          
+        }
+        .formSign{
+          padding: 12px;
+        }
+        .formSign>input{
+            width: 97%;
+            min-height: 30px;
+            /* color: black; */
+        }
+        .GFG{
+           text-decoration: none;
+           color: #0073b1;
+           
+        }
+        button{
+            border: 1px solid blue;
+            width: 100%;
+            min-height: 9%;
+            border-radius: 25px;
+            background-color: #0073b1;
+            color: white;
+            font-weight: 500;
+            cursor: pointer;
+           
+        }
+        button:hover{
+            background-color:  blue;
+        }
+        .border-bottom{
+            text-align: center;
+            border-bottom: 1px solid black;
+            padding: 10px;
+            margin-top: 0px;
+        }
+        .span{
+            margin-top: 10px;
+            text-align: center;
+            margin-bottom: -7px;
+            color: #857474;
+        }
+        .spanboder{
+            color: rgba(0,0,0,0.15);
+        }
+        .h5{
+            color: rgb(0 0 0 / 49%);
+            text-align: center;
+            border: 1px solid rgb(0 0 0 / 52%);
+            border-radius: 25px;
+            padding: 10px;
+            /* width: 100%; */
+            min-height: 2%;
+            font-weight: 700;
+            cursor: pointer;
+            letter-spacing: 1px;
+        }
+        .h5:hover{
+            border-color: black;
+        }
+        .Apple{
+            color: rgb(0 0 0 / 49%);
+            margin-bottom: 5px;
+            text-align: center;
+            border: 1px solid rgb(0 0 0 / 52%);
+            border-radius: 25px;
+            padding: 10px;
+            /* width: 100%; */
+            min-height: 2%;
+            font-weight: 700;
+            cursor: pointer;
+            letter-spacing: 1px;
+            margin-top: -10px;
+        }
+        .Apple:hover{
+            border-color: rgb(0, 0, 0);
+        }
+        .title{
+            color:#0073b1;
+            font-weight: 1000;
+            margin-top: -10px;
+        }
+        .signin{
+            font-family:system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+}
+        .fa-google{
+           color: #070404;
+        }
+        .fa-apple{
+            color: black;
+            padding: 5px;
+        }
+        .bottom{
+            text-align: center;
+        }
+        .bottom>h4{
+            color:#0a0a0a8c;
+            /* font-weight: 600; */
+        }
+        .bottom>h4>a{
+            color: #0073b1;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="BlockCenter">
+            
+            <div class="formSign">
+                  <h2 class="title">Linked<i class="fa fa-linkedin-square" aria-hidden="true"></i></h2>
+                <h1 class="signin">Sign in</h1>
+                <h5 class="para">Stay updated on your professional world</h5>
+                <!-- <label style="font-family:sans-serif" for="">Email or Phone</label><br> -->
+                <input type="text" placeholder="Email or Phone"><br><br>
+                <!-- <label style="font-family: sans-serif; " for="">Password</label><br> -->
+                <div style="border: 1px solid #857474; width: 250px;">
+                    <input type="password" placeholder="Password" style="border: none; min-height:30px; width: 180px;">
+                    <span style="color: #0073b1;">show</span>
+                </div>
+                <h5><a class="GFG" href="">Forgot password?</a></h5>
+                <button>Sign in</button>
+                <h6 class="span"> or</h6>
+                 <h5 class="h5"><i class="fa fa-google" aria-hidden="true"></i> Sign in with Google</h5>
+                 <h5 class="Apple"><i class="fa fa-apple" aria-hidden="true"></i>Sign in with Apple</h5>  
+            </div>
+        </div>
+        <div class="bottom">
+            <h4>New to LinkedIn? <a href="https://www.linkedin.com/checkpoint/lg/sign-in-another-account">Join now</a></h4>
+        </div>
+    
+</body>
+</html>

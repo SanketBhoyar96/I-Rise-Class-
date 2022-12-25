@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/1ec447684a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            /* box-sizing: border-box; */
+        }
+        header {
+            width: 100%;
+            height: 100px;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        nav {
+            width: 100%;
+            height: 80px;
+            background: white;
+            color: black;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding: 0px 19px;
+            position: fixed;
+            top: 0;
+            /* z-index: 1; */
+            border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+            box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+        }
+
+        .logo {
+            margin-top: 20px;
+            width: 80px;
+            height: 50px;
+            cursor: pointer;
+        }
+
+        .menu {
+            padding: 25px;
+        }
+
+        .menu>a {
+            padding:10px;
+            margin-top: 12px;
+            text-decoration: none;
+            /* color: #736464; */
+            color: black;
+            margin: 1px;
+            /* margin-left: 0PX; */
+            /* text-align: center; */
+        }
+
+        .menu>input {
+            cursor: pointer;
+            background-color: #02020208;
+            margin-top: 4px;
+            width: 500px;
+            height: 3rem;
+            border-radius: 25px;
+            border: 1px solid black;
+            
+        }
+        .menu>span{
+            font-size: 25px;
+        }
+        button{
+            cursor: pointer;
+          padding: 10px;
+          margin: 10px;
+          font-weight: 800;
+        }
+        .loginform{
+           margin-top: 20px;
+         
+        }
+        .Blockbuttion>button{
+            background-color: white;
+            border: 1px solid #0c0b0beb;
+  cursor: pointer;
+  width: 27%;
+  height: 3rem;
+  display: block;
+  margin-left: 500px;
+        }
+        .Blockbuttion>input{
+            background-color: white;
+            border: 1px solid #0c0b0beb;
+  cursor: pointer;
+  width: 27%;
+  height: 3.5rem;
+  display: block;
+  margin-left: 500px;
+
+        }
+
+        /* input{
+            margin-left: -10px;
+        } */
+        .Blockbuttion>.Login{
+            background-color: #a435f0;
+            margin-bottom: 20px;
+        }
+        .or{
+            margin-left: 70px;
+        }
+        .logo>img{
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img  src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="Not loading">
+            </div>
+            <div class="menu">
+                <a href="">Categories</a>
+                <input type="text" placeholder="Search for anything">
+
+                <a href="">Udemy Business</a>
+                <a href="">Teach on Udemy</a>
+                <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+</div>   
+<button style="background-color: white; width: 80px;">Log in</button>    
+<button style="background-color: black; color: white; width: 80px;">Sign up</button>
+<button style="background-color: white; width: 50px;"><i style="font-size: 20px;"  class="fa-solid fa-globe"></i></button>    
+</nav>
+    </header> 
+    <div class="loginform">
+            <div class="formSign">
+                <h3 style=" text-align: center; margin-right: 90px;font-weight: 700;letter-spacing: -.02rem; ">Log in to your Udemy account</h3>
+                <div class="Blockbuttion">
+                    <button style="text-align: left;" ><i style="font-size: 30px;  letter-spacing: -.02rem;" class="fa-brands fa-google"></i> Continue with Google</button>
+                    <button  style="text-align: left;"><i style="font-size: 30px;  letter-spacing: -.02rem; color: blue;" class="fa-brands fa-facebook"></i>Continue with Facebook</button>
+                    <button  style="text-align: left;"><i style="font-size: 30px; letter-spacing: .02rem;" class="fa fa-apple" aria-hidden="true"></i>Continue with Apple</button>
+                    <input type="text" placeholder="Email"><br>
+                    <input type="password" placeholder="Password">
+                    <button class="Login">Login</button>
+                    <span ><h5 class="or" style="  text-align: center; color: #494141; font-size: 17px;">or<a href="" style="  text-align: center; padding: 10px; font-size: 18px; text-decoration: underline; text-underline-offset: 0.4rem;">Forgot Password</a></h5></span><br>
+                    <span></span>
+                </div>
+                <span ><h5 class="or" style="  text-align: center; color: #494141; font-size: 17px;">Don't have an account?<a href="" style="  text-align: center; padding: 10px; font-size: 18px; text-decoration: underline; text-underline-offset: 0.4rem;; font-weight: 900;">Sign up</a></h5></span>
+                <span ><h5 class="or" style="  text-align: center;"><a href="" style="  text-align: center; padding: 10px; font-size: 18px; text-decoration: underline; text-underline-offset: 0.4rem;">Log in with your organization.</a></h5></span>
+            </div>
+            
+        </div>
+
+</body>
+
+</html

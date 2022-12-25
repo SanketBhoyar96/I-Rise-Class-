@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ec447684a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(-25deg,#8600b3 50%,#cc33ff 50%);
+        }
+        h1{
+            position: absolute;
+            top: 30%;
+            font-size: 60px;
+            color: white;
+        }
+        .box{
+            width: 500px;
+            height: 50px;
+            background-color: white;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .box>i{
+            font-size: 20px;
+            color: #777;
+        }
+        .box>input{
+          
+            flex: 1;
+            height: 40px;
+            border: none;
+            outline: none;
+          font-size: 18px;
+          padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- how to add another in input html -->
+    <!-- <div style="border: 1px solid black; width: 230px;">
+        <input type="pas" placeholder="Email or Phone" style="border: none; min-height:30px;">
+        <span>Show</span>
+        
+    </div><br>
+    <div style="display: flex; justify-content: center;">
+        <span style="border-bottom: 1px solid black;"></span>
+        <span>or</span>
+        <span style="border: 1px solid black;"></span>
+    </div> -->
+
+    <!-- how to add icons font inside input field -->
+      <h1>Search Box</h1>
+      <div class="box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search any here">
+      </div>
+
+</body>
+</html>
